@@ -1,0 +1,17 @@
+{
+  "name": "backend2",
+  "version": "1.0.0",
+  "description": "twilo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joashotto",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "twilio": "^4.13.0"
+  }
+}
