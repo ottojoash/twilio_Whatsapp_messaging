@@ -35,7 +35,7 @@ app.post('/api/whatsapp', (req, res) => {
     .create({
       from: 'whatsapp:+14155238886', // Your sandbox WhatsApp number
       body: twilioMessage,
-      to: `whatsapp:+256761928218`
+      to: `whatsapp:+23058599938`
     })
     .then(message => {
       console.log(`Message sent. SID: ${message.sid}`);
